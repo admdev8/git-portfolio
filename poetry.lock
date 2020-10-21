@@ -626,7 +626,7 @@ virtualenv = ">=20.0.8"
 
 [[package]]
 name = "pre-commit-hooks"
-version = "3.2.0"
+version = "3.3.0"
 description = "Some out-of-the-box hooks for pre-commit."
 category = "dev"
 optional = false
@@ -1166,7 +1166,7 @@ testing = ["jaraco.itertools", "func-timeout"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7.0"
-content-hash = "97418c2f3e4dc867ec72ce281612f0dfd7b1b4f359b15f3b4a46976e08c4bd50"
+content-hash = "e334813eda054b753915d9842b6436dd23fc4ca0b503a01dbbaf25b23904e424"
 
 [metadata.files]
 alabaster = [
@@ -1521,8 +1521,8 @@ pre-commit = [
     {file = "pre_commit-2.7.1.tar.gz", hash = "sha256:c54fd3e574565fe128ecc5e7d2f91279772ddb03f8729645fa812fe809084a70"},
 ]
 pre-commit-hooks = [
-    {file = "pre_commit_hooks-3.2.0-py2.py3-none-any.whl", hash = "sha256:8a174237326576c5f2279eba18ccbf2ca2a19fcaab8844db80f576c8fe76c2c2"},
-    {file = "pre_commit_hooks-3.2.0.tar.gz", hash = "sha256:917bce8feb048f8271e3a4a900c6d780118d23e8ddf4557ddec9384c0d1dba79"},
+    {file = "pre_commit_hooks-3.3.0-py2.py3-none-any.whl", hash = "sha256:2190d72ac867bd9b8880de32d9304ec54182c89720cce56f22742890ed8ba90f"},
+    {file = "pre_commit_hooks-3.3.0.tar.gz", hash = "sha256:1e18c0451279fb88653c7b9f8fd73ccc35925e95b636c5b64095538f68a23b06"},
 ]
 py = [
     {file = "py-1.9.0-py2.py3-none-any.whl", hash = "sha256:366389d1db726cd2fcfc79732e75410e5fe4d31db13692115529d34069a043c2"},
@@ -1652,6 +1652,8 @@ restructuredtext-lint = [
     {file = "ruamel.yaml.clib-0.2.2-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:5254af7d8bdf4d5484c089f929cb7f5bafa59b4f01d4f48adda4be41e6d29f99"},
     {file = "ruamel.yaml.clib-0.2.2-cp38-cp38-win32.whl", hash = "sha256:74161d827407f4db9072011adcfb825b5258a5ccb3d2cd518dd6c9edea9e30f1"},
     {file = "ruamel.yaml.clib-0.2.2-cp38-cp38-win_amd64.whl", hash = "sha256:058a1cc3df2a8aecc12f983a48bda99315cebf55a3b3a5463e37bb599b05727b"},
+    {file = "ruamel.yaml.clib-0.2.2-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:c6ac7e45367b1317e56f1461719c853fd6825226f45b835df7436bb04031fd8a"},
+    {file = "ruamel.yaml.clib-0.2.2-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:b4b0d31f2052b3f9f9b5327024dc629a253a83d8649d4734ca7f35b60ec3e9e5"},
     {file = "ruamel.yaml.clib-0.2.2.tar.gz", hash = "sha256:2d24bd98af676f4990c4d715bcdc2a60b19c56a3fb3a763164d2d8ca0e806ba7"},
 ]
 safety = [
